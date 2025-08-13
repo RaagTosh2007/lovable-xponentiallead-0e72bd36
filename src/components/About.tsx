@@ -50,9 +50,7 @@ const About = () => {
         {/* About Content */}
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h3 className="text-3xl font-bold text-navy-deep mb-6">
-              Driving Performance & Inclusive Cultures
-            </h3>
+            <h3 className="text-3xl font-bold text-navy-deep mb-6">Driving Performance Through Talent Development</h3>
             <div className="space-y-4 text-gray-sophisticated">
               <p>As a results-oriented ICF-PCC certified Coach with 23 years of leadership experience in Indian and multinational organizations, I've been at the forefront of driving people development and serving as a talent partner to business leaders.</p>
               <p>My extensive experience spans Telecom, Consulting, BFSI, Manufacturing and Technology firms across India, USA, and UK, where I've led global teams and driven performance through talent development, inclusive cultures, talent review boards, and succession planning exercises.</p>
