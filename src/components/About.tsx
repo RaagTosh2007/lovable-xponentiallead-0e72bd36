@@ -55,11 +55,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-gray-sophisticated">
               <p>As a results-oriented ICF-PCC certified Coach with 23 years of leadership experience in Indian and multinational organizations, I've been at the forefront of driving people development and serving as a talent partner to business leaders.</p>
-              <p>
-                My extensive experience spans Telecom, BFSI, and Technology firms across India, 
-                USA, and UK, where I've led global teams and driven performance through inclusive 
-                cultures, talent review boards, and succession planning exercises.
-              </p>
+              <p>My extensive experience spans Telecom, Consulting, BFSI, Manufacturing and Technology firms across India, USA, and UK, where I've led global teams and driven performance through talent development, inclusive cultures, talent review boards, and succession planning exercises.</p>
               <p>
                 I specialize in coaching leaders at various stages of their journeys, helping them 
                 understand organizational context, manage career transitions, and achieve their 
