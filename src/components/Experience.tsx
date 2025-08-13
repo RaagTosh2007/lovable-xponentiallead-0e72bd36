@@ -7,7 +7,7 @@ const Experience = () => {
     company: "Tata Agratas",
     description: "Led global talent strategy and organizational development initiatives"
   }, {
-    title: "VP - Talent Management, RE",
+    title: "VP - Talent Management, Swiss Re",
     company: "Swiss Re UK",
     description: "Directed talent management and leadership development for European operations"
   }, {
