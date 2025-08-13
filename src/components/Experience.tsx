@@ -12,7 +12,7 @@ const Experience = () => {
     description: "Directed talent management and leadership development for European operations"
   }, {
     title: "Global Lead - Performance Management",
-    company: "Oracle (GBUS IDC)",
+    company: "Oracle",
     description: "Program Manager for Leadership Development and Talent Development Partner"
   }, {
     title: "AVP HR",
