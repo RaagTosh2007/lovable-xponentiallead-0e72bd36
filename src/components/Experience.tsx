@@ -1,51 +1,41 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Building2, MapPin, Globe2, Languages } from "lucide-react";
-
 const Experience = () => {
-  const corporateRoles = [
-    {
-      title: "VP - Global Talent Management",
-      company: "Tata Agratas",
-      description: "Led global talent strategy and organizational development initiatives"
-    },
-    {
-      title: "VP - Talent Management, RE",
-      company: "Swiss Re UK",
-      description: "Directed talent management and leadership development for European operations"
-    },
-    {
-      title: "Global Lead - Performance Management",
-      company: "Oracle (GBUS IDC)",
-      description: "Program Manager for Leadership Development and Talent Development Partner"
-    },
-    {
-      title: "AVP HR",
-      company: "Fullerton India",
-      description: "Led HR strategy and organizational development initiatives"
-    }
-  ];
-
-  const globalPresence = [
-    { region: "Americas", experience: "Multi-year leadership roles" },
-    { region: "APAC", experience: "Extensive regional operations" },
-    { region: "EMEA", experience: "UK-based executive positions" }
-  ];
-
+  const corporateRoles = [{
+    title: "VP - Global Talent Management",
+    company: "Tata Agratas",
+    description: "Led global talent strategy and organizational development initiatives"
+  }, {
+    title: "VP - Talent Management, RE",
+    company: "Swiss Re UK",
+    description: "Directed talent management and leadership development for European operations"
+  }, {
+    title: "Global Lead - Performance Management",
+    company: "Oracle (GBUS IDC)",
+    description: "Program Manager for Leadership Development and Talent Development Partner"
+  }, {
+    title: "AVP HR",
+    company: "Fullerton India",
+    description: "Led HR strategy and organizational development initiatives"
+  }];
+  const globalPresence = [{
+    region: "Americas",
+    experience: "Multi-year leadership roles"
+  }, {
+    region: "APAC",
+    experience: "Extensive regional operations"
+  }, {
+    region: "EMEA",
+    experience: "UK-based executive positions"
+  }];
   const languages = ["English", "Hindi", "Telugu", "Tamil"];
-
-  return (
-    <section className="py-20 bg-gray-light">
+  return <section className="py-20 bg-gray-light">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-navy-deep mb-6">
-            Global Corporate Excellence
-          </h2>
-          <p className="text-xl text-gray-sophisticated max-w-3xl mx-auto">
-            Two decades of senior leadership experience in Fortune 500 companies, 
-            driving organizational transformation and talent development across continents.
-          </p>
+          <h2 className="text-4xl md:text-5xl font-bold text-navy-deep mb-6">Corporate Experience</h2>
+          <p className="text-xl text-gray-sophisticated max-w-3xl mx-auto">Two decades of leadership experience in Indian and Fortune 500 global companies, driving organizational transformation and talent development across continents.</p>
         </div>
 
         {/* Corporate Experience */}
@@ -55,8 +45,7 @@ const Experience = () => {
             Corporate Leadership Roles
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
-            {corporateRoles.map((role, index) => (
-              <Card key={index} className="shadow-card border-0 hover:shadow-executive transition-all duration-300">
+            {corporateRoles.map((role, index) => <Card key={index} className="shadow-card border-0 hover:shadow-executive transition-all duration-300">
                 <CardHeader>
                   <CardTitle className="text-xl text-navy-deep">{role.title}</CardTitle>
                   <Badge variant="secondary" className="w-fit bg-gold-light text-navy-deep">
@@ -66,8 +55,7 @@ const Experience = () => {
                 <CardContent>
                   <p className="text-gray-sophisticated">{role.description}</p>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
 
@@ -80,16 +68,14 @@ const Experience = () => {
               International Presence
             </h3>
             <div className="space-y-4">
-              {globalPresence.map((presence, index) => (
-                <Card key={index} className="shadow-subtle border border-gold-light">
+              {globalPresence.map((presence, index) => <Card key={index} className="shadow-subtle border border-gold-light">
                   <CardContent className="p-4">
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-navy-deep">{presence.region}</span>
                       <span className="text-sm text-gray-sophisticated">{presence.experience}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
             
             <div className="mt-8 p-6 bg-white rounded-lg shadow-card">
@@ -115,15 +101,9 @@ const Experience = () => {
                 and effective communication across diverse global teams.
               </p>
               <div className="flex flex-wrap gap-2">
-                {languages.map((language, index) => (
-                  <Badge 
-                    key={index} 
-                    variant="secondary" 
-                    className="bg-gold-light text-navy-deep px-3 py-1"
-                  >
+                {languages.map((language, index) => <Badge key={index} variant="secondary" className="bg-gold-light text-navy-deep px-3 py-1">
                     {language}
-                  </Badge>
-                ))}
+                  </Badge>)}
               </div>
             </div>
 
@@ -156,8 +136,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Experience;
