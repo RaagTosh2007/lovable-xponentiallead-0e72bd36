@@ -19,7 +19,7 @@ const About = () => {
     title: "Results-Driven",
     description: "Specialized in leadership transformation and breakthrough coaching"
   }];
-  const credentials = ["ICF-PCC Professional Certified Coach", "Certified Advanced Coaching Professional (CACP)", "Level 5 CIPD, UK", "MBA - HR & Marketing, IPE", "MBTI, FIRO-B, Profilor-360 Certified"];
+  const credentials = ["ICF-PCC Professional Certified Coach", "Certified Advanced Coaching Professional (CACP)", "Level 5 CIPD, UK", "MBA - HR & Marketing, IPE", "MBTI, FIRO-B, Profilor-360 Certified", "B. Sc. Life Sciences"];
   return <section className="py-20 bg-gradient-card">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
