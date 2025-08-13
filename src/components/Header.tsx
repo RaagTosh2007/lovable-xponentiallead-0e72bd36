@@ -26,7 +26,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="font-bold text-2xl text-navy-deep">
-            Satya
+            Xponential
             <span className="text-gold-rich ml-1">Leadership</span>
           </div>
 
