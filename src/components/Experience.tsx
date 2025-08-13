@@ -21,13 +21,13 @@ const Experience = () => {
   }];
   const globalPresence = [{
     region: "Americas",
-    experience: "Multi-year leadership roles"
+    experience: "leadership roles through virtual teams"
   }, {
     region: "APAC",
-    experience: "Extensive regional operations"
+    experience: "regional & global roles"
   }, {
     region: "EMEA",
-    experience: "UK-based executive positions"
+    experience: "UK-based with global leadership roles"
   }];
   const languages = ["English", "Hindi", "Telugu", "Tamil"];
   return <section className="py-20 bg-gray-light">
