@@ -17,7 +17,7 @@ const About = () => {
     {
       icon: Users,
       title: "C-Suite Expertise",
-      description: "Direct experience coaching CXO-1 and CXO-2 leaders"
+      description: "Direct experience coaching CXOs, CXO-1 and CXO-2 leaders"
     },
     {
       icon: Target,
