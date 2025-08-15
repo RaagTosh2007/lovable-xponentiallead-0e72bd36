@@ -38,11 +38,11 @@ const Experience = () => {
           <p className="text-xl text-gray-sophisticated max-w-3xl mx-auto">Two decades of leadership experience in Indian and Fortune 500 global companies, driving organizational transformation and talent development across continents.</p>
         </div>
 
-        {/* Corporate Experience */}
+        {/* International Leadership Experience */}
         <div className="mb-16">
           <h3 className="text-3xl font-bold text-navy-deep mb-8 flex items-center">
             <Building2 className="w-8 h-8 text-gold-rich mr-3" />
-            Corporate Leadership Roles
+            International Leadership Experience
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
             {corporateRoles.map((role, index) => <Card key={index} className="shadow-card border-0 hover:shadow-executive transition-all duration-300">
@@ -59,13 +59,13 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Global Presence & Languages */}
+        {/* Global Presence, Key Competencies & Languages */}
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* International Experience */}
+          {/* Global Presence */}
           <div>
             <h3 className="text-2xl font-bold text-navy-deep mb-6 flex items-center">
               <Globe2 className="w-7 h-7 text-gold-rich mr-3" />
-              International Presence
+              Global Leadership Regions
             </h3>
             <div className="space-y-4">
               {globalPresence.map((presence, index) => <Card key={index} className="shadow-subtle border border-gold-light">
@@ -116,19 +116,27 @@ const Experience = () => {
                 <ul className="space-y-2 text-gray-sophisticated">
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-gold-rich rounded-full mr-3"></div>
-                    Talent Review Boards & Succession Planning
+                    Customer-centricity
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-gold-rich rounded-full mr-3"></div>
-                    Learning & Leadership Development Engines
+                    Relationship Building & Influence
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-gold-rich rounded-full mr-3"></div>
-                    Performance & Inclusive Culture Development
+                    Leadership Development & Coaching
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-gold-rich rounded-full mr-3"></div>
-                    Cross-border Team Leadership
+                    Strategic Talent & Performance Management
+                  </li>
+                  <li className="flex items-center">
+                    <div className="w-2 h-2 bg-gold-rich rounded-full mr-3"></div>
+                    Learning & Development Architecture
+                  </li>
+                  <li className="flex items-center">
+                    <div className="w-2 h-2 bg-gold-rich rounded-full mr-3"></div>
+                    Change Agility & Resilience
                   </li>
                 </ul>
               </CardContent>

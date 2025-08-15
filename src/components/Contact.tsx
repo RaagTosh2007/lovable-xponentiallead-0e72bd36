@@ -57,13 +57,13 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      detail: "coaching@satya-leadership.com",
+      detail: "satya@xponentiallead.com",
       description: "Preferred for initial consultations"
     },
     {
       icon: Phone,
       title: "Phone",
-      detail: "+91 XXX XXX XXXX",
+      detail: "+919606110860 +447443731001",
       description: "Available during IST business hours"
     },
     {
@@ -71,12 +71,6 @@ const Contact = () => {
       title: "Location",
       detail: "Bengaluru, India",
       description: "Global coaching via video conferences"
-    },
-    {
-      icon: Calendar,
-      title: "Availability",
-      detail: "Mon-Fri, 9 AM - 6 PM IST",
-      description: "Flexible for international clients"
     }
   ];
 

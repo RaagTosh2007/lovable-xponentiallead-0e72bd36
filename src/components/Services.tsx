@@ -5,12 +5,6 @@ import { TrendingUp, Users2, BrainCircuit, Briefcase, Building, UserCheck } from
 const Services = () => {
   const coachingAreas = [
     {
-      icon: TrendingUp,
-      title: "Career & Business Coaching",
-      description: "Strategic career transitions and business growth guidance for executives navigating complex organizational landscapes.",
-      highlights: ["Executive leadership development", "Career transition management", "Strategic planning"]
-    },
-    {
       icon: BrainCircuit,
       title: "Leadership Transformation",
       description: "Breakthrough coaching to help leaders see beyond systemic limitations and move from survival to thriving.",
@@ -18,9 +12,15 @@ const Services = () => {
     },
     {
       icon: Users2,
-      title: "Women Leaders Coaching",
+      title: "Women Leadership Coaching",
       description: "Specialized coaching for women leaders to overcome unique challenges and achieve executive excellence.",
       highlights: ["Gender-specific challenges", "Executive presence", "Leadership confidence"]
+    },
+    {
+      icon: TrendingUp,
+      title: "Career Coaching",
+      description: "Strategic career transitions and guidance for executives navigating complex organizational landscapes.",
+      highlights: ["Executive leadership development", "Career transition management", "Strategic guidance"]
     }
   ];
 

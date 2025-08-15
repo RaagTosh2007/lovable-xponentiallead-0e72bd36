@@ -27,8 +27,9 @@ const About = () => {
             Executive Leadership Excellence
           </h2>
           <p className="text-xl text-gray-sophisticated max-w-3xl mx-auto">
-            Transforming leaders and organizations through evidence-based coaching, 
-            strategic talent development, and proven leadership methodologies.
+            ICF-PCC Certified Executive Coach with 23+ years of leadership experience, 
+            empowering C-suite executives and senior leaders to achieve breakthrough results 
+            in complex multinational organizations.
           </p>
         </div>
 

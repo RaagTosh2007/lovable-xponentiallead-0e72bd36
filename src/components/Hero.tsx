@@ -23,9 +23,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-light max-w-3xl mx-auto leading-relaxed">
-            ICF-PCC Certified Executive Coach with 23+ years of leadership experience, 
-            empowering C-suite executives and senior leaders to achieve breakthrough results 
-            in complex multinational organizations.
+            Transforming leaders and organizations through evidence-based coaching, 
+            strategic talent development, and proven leadership methodologies.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
@@ -34,15 +33,17 @@ const Hero = () => {
               size="lg"
               className="text-lg px-8 py-4 h-auto"
             >
-              Schedule Your Consultation
+              Connect with us
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="text-lg px-8 py-4 h-auto border-white text-white hover:bg-white hover:text-navy-deep"
-            >
-              Explore My Approach
-            </Button>
+            <a href="#approach">
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="text-lg px-8 py-4 h-auto border-white text-white hover:bg-white hover:text-navy-deep"
+              >
+                Explore our approach
+              </Button>
+            </a>
           </div>
         </div>
       </div>
